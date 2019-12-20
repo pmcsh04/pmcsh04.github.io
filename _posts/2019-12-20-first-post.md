@@ -1,7 +1,13 @@
 ---
-title: "블로그 만들었다."
-date: 2019-12-20 15:50:00 -0400
-categories: blog
+layout: default
+title:  "블로그 생성."
+date:   2019-12-20 16:00:00 -0400
+published: 2019-12-20 16:00:00 -0400
+comments: true
+categories: integration
+tags: [messaging, integration, iot]
+github: "https://github.com/alainpham/amq-broker-network"
 ---
+
 블로그를 만들고 첫 글을 올려봅니다.
 바꿔야 될 것들이 많네요.
