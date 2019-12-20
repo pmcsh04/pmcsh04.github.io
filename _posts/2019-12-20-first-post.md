@@ -1,7 +1,7 @@
 ---
+layout:
 title: "블로그 만들었다."
-date: 2019-12-20 15:50:00 -0400
-categories: blog
+theme: dark
 ---
 블로그를 만들고 첫 글을 올려봅니다.
 바꿔야 될 것들이 많네요.
