@@ -1,9 +1,6 @@
 ---
-layout: default
-title:  "블로그 생성."
-date:   2019-12-20 16:00:00 -0400
-published: 2019-12-20 16:00:00 -0400
-comments: true
+title: "블로그 생성"
+date: 2019-12-20 16:10:00 -0400
 categories: blog
 ---
 <h1> 블로그를 만들고 첫 글을 올려봅니다. </h1>
