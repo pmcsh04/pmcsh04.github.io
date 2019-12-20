@@ -1,5 +1,5 @@
 ---
-layout:
+layout: article
 title: "블로그 만들었다."
 theme: dark
 ---
