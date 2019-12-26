@@ -1,92 +1,41 @@
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-  <link rel="shortcut icon" type="image/png" href="/icon.png" />
+<meta charset="utf-8">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@koint">
-  <meta name="twitter:creator" content="@koint">
+{% include seo.html %}
 
-  <!-- SEO stuff -->
-  <title>{{page.title}}</title>
-  <meta property="og:title" content="{{page.title}}" />
-  <meta name="twitter:title" content="{{page.title}}">
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% if page.description %}
-	  <meta name="description" content="{{page.description}}" />
-	  <meta property="og:description" content="{{page.description}}" />
-	  <meta name="twitter:description" content="{{page.description}}">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-  {% else %}
-	  <meta name="description" content="{{page.excerpt | strip_html | strip}}" />
-	  <meta property="og:description" content="{{page.excerpt | strip_html| strip}}" />
-	  <meta name="twitter:description" content="{{page.excerpt | strip_html| strip}}">
-  {% endif %}
-  <link rel="canonical" href="{{site.url}}{{page.url}}" />
-  <meta property="og:url" content="{{site.url}}{{page.url}}" />
-  <meta name="twitter:url" content="{{site.url}}{{page.url}}">
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <meta property="og:site_name" content="{{site.name}}" />
-  <meta property="og:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpg" />
-  <meta name="twitter:image" content="{{site.url}}/assets/images/{{page.id}}/top.jpg">
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
 
-  {% if page.id %} <!-- if it's an article -->
-  <meta property="og:type" content="article" />
-  <meta property="article:published_time" content="{{ page.published | date_to_xmlschema }}" />
-  <meta property="article:modified_time" content="{{ page.date | date_to_xmlschema }}" />
-
-  <meta content="{{site.author}}" property="article:author">
-
-  {% if page.categories %}
-	  {% for category in page.categories limit:1 %}
-	  <meta content="{{ category }}" property="article:section">
-	  {% endfor %}
-  {% endif %}
-
-  {% if page.tags %}
-	  {% for tag in page.tags %}
-	  <meta content="{{ tag }}" property="article:tag">
-	  {% endfor %}
-  {% endif %}
-
-    <script type="application/ld+json">
-{"@context": "http://schema.org",
-"@type": "BlogPosting",
-"headline": "{{page.title}}",
-"datePublished": "{{ page.published | date_to_xmlschema }}",
-  {% if page.description %}
-"description": "{{page.description}}",
-  {% else %}
-"description": "{{page.excerpt | strip_html}}",
-  {% endif %}
-"url": "{{site.url}}{{page.url}}"}</script>
-
-  {% else %} <!-- its not an article -->
-  	<meta property="og:type" content="website" />
-
-  	    <script type="application/ld+json">
-{"@context": "http://schema.org",
-"@type": "WebSite",
-"headline": "{{page.title}}",
-  {% if page.description %}
-"description": "{{page.description}}",
-  {% else %}
-"description": "{{page.excerpt | strip_html}}",
-  {% endif %}
-"url": "{{site.url}}{{page.url}}"}</script>
-  {% endif %}
-
-  <link rel="author" href="{{site.author}}"/>
-
-   <!-- End SEO stuff -->
-
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-   <link href="/assets/css/syntax.css" rel="stylesheet">
-
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-
-</head>
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    {% if script contains "://" %}
+      {% capture script_path %}{{ script }}{% endcapture %}
+    {% else %}
+      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
+    {% endif %}
+    <script src="{{ script_path }}"></script>
+  {% endfor %}
+{% endif %}
