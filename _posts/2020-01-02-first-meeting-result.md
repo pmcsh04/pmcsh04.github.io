@@ -6,8 +6,7 @@ tags:
 
 ---
 
-<blockquote>
-<p>
+~~~
 import java.util.Scanner;
 
 public class Baekjoon_10828 {
@@ -50,5 +49,4 @@ public class Baekjoon_10828 {
 		}
 	}
 }
-</p>
-</blockquote>
+~~~
