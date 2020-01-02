@@ -7,7 +7,7 @@ tags:
 ---
 두 문제를 풀었습니다.
 첫번째 문제
-~~~
+~~~java
 import java.util.Scanner;
 
 public class Baekjoon_10828 {
@@ -52,7 +52,7 @@ public class Baekjoon_10828 {
 }
 ~~~
 두번째문제
-~~~
+~~~java
 import java.util.Scanner;
 import java.util.Stack;
 
