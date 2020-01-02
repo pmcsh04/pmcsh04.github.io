@@ -5,8 +5,8 @@ tags:
     - blog
 
 ---
-두 문제를 풀었습니다.
-첫번째 문제
+첫번째 모각코에서는 java로 스택문제 2문제를 풀었습니다.
+첫번째문제
 ~~~java
 import java.util.Scanner;
 
