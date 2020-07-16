@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "school"
+  - title: "School"
     url : /categories/school/
-  - title: "study"
+  - title: "Study"
     url: /categories/study/
-  - title: "etc"
+  - title: "ETC"
     url : /categories/etc/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
