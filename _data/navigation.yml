@@ -2,7 +2,7 @@
 main:
   - title: "study"
     url: /categories/study/
-  - title: "잡담"
+  - title: "????"
     url : /categories/umm/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
