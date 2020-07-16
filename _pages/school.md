@@ -1,6 +1,6 @@
 ---
 title: "school"
-layout: category
+layout: categories
 permalink: /categories/school/
 author_profile: true
 taxonomy:
