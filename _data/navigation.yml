@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "school"
-    url: /categories/school/
   - title: "study"
-    url : /categories/study/
+    url: /categories/study/
+  - title: "school"
+    url : /categories/school/
+  - title: "etc"
+    url : /categories/etc/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
