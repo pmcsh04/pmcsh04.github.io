@@ -1,9 +1,9 @@
 ---
-title: "study"
+title: "Study"
 layout: category
 permalink: /categories/study/
 author_profile: true
 taxonomy:
-  - study
+  - Study
 ---
-공부한 것들을 정리하는 공간
+공부방
