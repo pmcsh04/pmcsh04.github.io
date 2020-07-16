@@ -4,7 +4,7 @@ main:
     url : /categories/school/
   - title: "Study"
     url: /categories/study/
-  - title: "ETC"
+  - title: "etc."
     url : /categories/etc/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

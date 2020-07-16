@@ -1,5 +1,5 @@
 ---
-title: "공부 내용 정리"
+title: "study"
 layout: category
 permalink: /categories/study/
 author_profile: true
