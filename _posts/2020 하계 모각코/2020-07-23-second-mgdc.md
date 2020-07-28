@@ -17,7 +17,7 @@ category: 2020 하계 모각코
 <img src="https://user-images.githubusercontent.com/48935917/88608699-59ab0d00-d0bd-11ea-839a-6f1eb642cb5b.jpg" width="40%">   
 
 # 목표  
-
+흔들리는 코딩속에서 일일목표
 ---   
 
 * 김기조   
@@ -35,7 +35,7 @@ category: 2020 하계 모각코
   * 웹프로그래밍 강좌 듣기(인프런)   
 
 # 회고   
-
+회고는 각자의 Github Blog에 게시   
 ---   
 
 [김기조](https://k2j507.github.io/1st/)   
