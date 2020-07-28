@@ -10,10 +10,11 @@ category: 2020 하계 모각코
 ---   
 일자 : 2020년 07월 16일   
 일시 : 19:00 ~ 22:00 (3시간)   
-장소 : 각자 집,    
+장소 : 각자 집
+
 <img src="https://user-images.githubusercontent.com/48935917/88608603-1781cb80-d0bd-11ea-8692-0f33099a7b3a.jpg" width="40%">   
 
-<img src="https://user-images.githubusercontent.com/48935917/88608699-59ab0d00-d0bd-11ea-839a-6f1eb642cb5b.jpg" width="40%" height="40%">   
+<img src="https://user-images.githubusercontent.com/48935917/88608699-59ab0d00-d0bd-11ea-839a-6f1eb642cb5b.jpg" width="40%">   
 
 # 목표  
 
@@ -38,6 +39,9 @@ category: 2020 하계 모각코
 ---   
 
 [김기조](https://k2j507.github.io/1st/)   
-[조승현](https://pmcsh04.github.io/2020%20%ED%95%98%EA%B3%84%20%EB%AA%A8%EA%B0%81%EC%BD%94/first-mgc/)   
-[김수민]()   
+
+[조승현](https://pmcsh04.github.io/2020%20%ED%95%98%EA%B3%84%20%EB%AA%A8%EA%B0%81%EC%BD%94/first-mgc/)
+
+[김수민]()
+
 [조윤혁](https://joyunhyeok.github.io/JoWorld.github.io/blog/1%EC%9D%BC%EC%B0%A8-post/)   
