@@ -13,7 +13,7 @@ category: 2020 하계 모각코
 장소 : 각자 집,    
 <img src="https://user-images.githubusercontent.com/48935917/88608603-1781cb80-d0bd-11ea-8692-0f33099a7b3a.jpg" width="40%">   
 
-<img src="https://user-images.githubusercontent.com/48935917/88608699-59ab0d00-d0bd-11ea-839a-6f1eb642cb5b.jpg" width="40%">   
+<img src="https://user-images.githubusercontent.com/48935917/88608699-59ab0d00-d0bd-11ea-839a-6f1eb642cb5b.jpg" width="40%" height="80%">   
 
 # 목표  
 
